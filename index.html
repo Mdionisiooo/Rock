@@ -146,7 +146,7 @@
 </head>
 <body>
     <div class="fire" id="fire"></div> <!-- O div com o fogo, inicialmente invisível -->
-    <img id="rockImage" src="Y:\Publico\mdionisio\240128 - LD Itabiritos\Inventor\OldVersions\Rock.jpg" alt="Imagem do Rock">
+    <img id="rockImage" src="Rock.jpg" alt="Imagem do Rock">
     <div class="message">A HORA DO ROCK É DAQUI: <span id="time">--:--:--</span></div>
     <div class="defined-time">Horário definido: <span id="definedTime">--:--</span></div>
     <div class="generated-time">Horário gerado: <span id="generatedTime">--:--</span></div>
@@ -334,7 +334,7 @@
             if (timeDifference <= 0) {
                 document.querySelector('.message').textContent = "AGORA É HORA DO ROCK";
                 document.querySelector('.message').style.animation = "blink 1s infinite"; // Faz a mensagem piscar
-                document.getElementById('rockImage').src = "Y:/Publico/mdionisio/240128 - LD Itabiritos/Inventor/OldVersions/aceito.png";
+                document.getElementById('rockImage').src = "aceito.png";
 
                 // Exibe o fogo quando o contador chegar a zero
                 document.getElementById('fire').style.display = "block"; 
